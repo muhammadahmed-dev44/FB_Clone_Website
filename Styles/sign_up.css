@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main container */
+
+#container {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/* form container */
+
+#signup_form {
+    width: 600px;
+    /* border: 2px solid black; */
+    padding: 20px;
+}
+
+/* back button - back to login page */
+
+#signup_form > div > pre > a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-weight: 90;
+}
+
+/* starting text */
+
+.Starting-text {
+    margin: 0px 0px 10px 0px;
+}
+
+.metalogo {
+    height: 10px;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.metalogo >img {
+    width: 20px;
+}
+
+.metalogo > span {
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+
+.Starting-text > p {
+    width: 430px;
+    margin-top: 5px;
+}
+
+/* name inputs */
+#name-input {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.name-heading {
+    margin: 15px 0px 10px 0px ;
+}
+
+#name-input > input {
+    width: 49%;
+    padding: 8px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* dob input */
+#dob-select {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.dob-heading {
+    margin: 15px 0px 10px 0px ;
+}
+
+#dob-select > select {
+    width: 49%;
+    padding: 8px;
+    height: 50px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+/* gender select opt */
+.gender-select-heading {
+    margin: 15px 0px 10px 0px ;
+}
+
+#gender-select > select {
+    width: 100%;
+    padding: 8px;
+    height: 50px;
+    /* outline: none; */
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* mobile number or email address */
+
+.email-input-heading {
+    margin: 15px 0px 10px 0px ;
+}
+
+#mob-email-input > input {
+    width: 100%;
+    padding: 8px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* middile para */
+.mid-para {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.mid-para > a {
+    text-decoration: none;
+    color: rgb(0, 79, 175);
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.mid-para > a:hover {
+    text-decoration: underline;
+}
+
+/* password input */
+.pass-input-heading {
+    margin: 15px 0px 10px 0px ;
+}
+
+#pass-input > input {
+    width: 100%;
+    padding: 8px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* last para text */
+.last-para {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.last-para > a {
+    text-decoration: none;
+    color: rgb(0, 79, 175);
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.last-para > a:hover {
+    text-decoration: underline;
+}
+
+/* buttons */
+
+.buttons {
+    margin: 30px 0px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons > button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.submit {
+    background-color: #0064e0;
+    color: white;
+    font-size: 18px;
+}
+
+.Forgot-btn {
+    border: none;
+    border-radius: 0px;
+    margin-top: 15px;
+}
+
+.Forgot-btn:hover {
+    background-color: rgb(194, 189, 189);
+}
