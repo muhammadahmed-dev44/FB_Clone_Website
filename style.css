@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main container */
+
+#container {
+    width: 100%;
+    height: 100vh;
+}
+
+/* header */
+
+header {
+    padding: 12px 20px;
+}
+
+/* navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* navbar logo & search box */
+
+nav > .leftside-elements {
+    display: flex;
+    gap: 10px;
+}
+
+/* logo */
+
+.leftside-elements > img {
+    width: 45px;
+    height: 45px;
+}
+
+/* search box */
+
+.navbar-search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navbar-search-box > img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 6px;
+}
+
+.navbar-search-box > input {
+    width: 100%px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 32px;
+    font-size: 15px;
+    background-color: rgb(240, 240, 240);
+}
+
+/* .navbar-search-box > input:active {
+    border: 0.5px solid balck;
+
+} */
+
+/* navbar navigation buttons / mid section */
+
+.mid-navigation-btns > button {
+    width: 110px;
+    height: 50px;
+    /* text-align: center; */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.mid-navigation-btns > button:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.mid-navigation-btns > button > img {
+    /* width: 50px; */
+    height: 30px;
+}
+
+/* navbar right side button */
+.right-side-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.right-side-btn > button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    /* display: flex;
+    flex-direction: row; */
+    cursor: pointer;
+}
+
+.right-side-btn > button > img {
+    height: 25px;
+}
+
+/* notification styling */
+.notification_btn {
+    position: relative;
+}
+
+.notification_count {
+    background-color: red;
+    border-radius: 100px;
+    width: 20px;
+    color: white;
+    font-weight: 900;
+    padding: 2xpx;
+    position: absolute;
+    bottom: 26px;
+    left: 24px;
+}
+
+/* profile picture styling */
+
+.user_img {
+    position: relative;
+}
+
+/* .user_icon {
+    height: 100%;
+    border-radius: 10000px;
+} */
+
+.angle_arrow {
+    background-color: rgb(240, 240, 240);
+    border-radius: 100px;
+    width: 25px;
+    height: 0px;
+    border: 3px solid white;
+    position: absolute;
+    top: 22px;
+    left: 22px;
+}
+
+/* ********************* main body container *********************** */
+#body_container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F4F7;
+}
+
+/* ------------ right side navigation section ------------------- */
+
+/* main container */
+#right-section {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 565px;
+    /* background-color: brown; */
+    padding: 0px 10px;
+    padding-top: 15px;
+    overflow-y: scroll;
+    /* border-right: 5px solid rgb(225, 228, 231); */
+}
+
+/* each box */
+.right_section_elements {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 6px 0px 6px 0px;
+    /* background-color: olive; */
+}
+
+.right_section_elements:hover {
+    background-color: rgb(224, 223, 223);
+}
+
+/* all cell images */
+.right_section_elements > img {
+    height: 25px;
+}
+
+/* last box see more */
+.Seemore {
+    background-color: rgb(228, 226, 226);
+    border-radius: 10000px;
+}
+
+#right-section > hr, #left_bar_section > hr {
+    border: 2px solid rgb(222, 221, 221);;
+}
+
+/* *********** body mid/main - post section ************* */
+#mid-section {
+    padding-bottom: 50px;
+}
+
+/* ------------- Top logo, Search box & icons ------------------- */
+.mid_section_logo_button {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+/* profile logo */
+.mid_section_logo_button > img {
+    height: 45px;
+    cursor: pointer;
+}
+
+/* search box */
+.mid_section_logo_button > button {
+    height: 40px;
+    width: 500px;
+    background-color: #F0F2F5 ;
+    border: none;
+    border-radius: 20px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 18px;
+    color: rgb(168, 171, 174);
+    cursor: pointer;
+}
+
+/* right icons */
+.right_icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.right_icons > img {
+    height: 35px;
+    cursor: pointer;
+}
+
+/* ------------- Stories/status cards ---------------- */
+#stories-status-cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+
+
+.story_card {
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    height: 200px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.story_card:hover {
+    background-color: #d6d8da;
+}
+
+
+/* profile story card */
+.box_1 {
+    position: relative;
+}
+
+.profile_story {
+    width: 100%;
+    height: 121px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Plus_icon {
+    width: 45px;
+    height: 45px;
+    border: 3px solid white;
+    border-radius: 100px;
+    position: absolute;
+    left: 40px;
+    bottom: 55px;
+}
+
+.background_white {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 78px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+.background_white > p {
+    font-weight: 700;
+    position: absolute;
+    top: 40px;
+}
+
+/* other Stories cards */
+.box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.box_2 {
+    background-image: url(./Assets/Storie_picture_1.png);
+}
+
+.box_3 {
+    background-image: url(./Assets/Storie_picture_2.png);
+}
+
+.box_4 {
+    background-image: url(./Assets/Storie_picture_3.png);
+}
+
+.box_5 {
+    background-image: url(./Assets/Storie_picture_4.png);
+}
+
+.people_profile_picture > img {
+    width: 50px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+.Stories_user_name {
+    position: absolute;
+    top: 160px;
+    left: 22px;
+    color: white;
+}
+
+.reel_scrool_sign {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 30px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+/* other posts section */
+
+#posts_container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 10px 0px;
+    margin: 18px 0px;
+}
+
+#post_section {
+    width: 100%;
+    height: 400px;
+    /* background-color: greenyellow; */
+    border-radius: 20px;
+}
+
+/* post upper section (profile name and picture) */
+.post_upper_section {
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* profile picture */
+.post_upper_section > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    cursor: pointer;
+    border: 5px solid rgb(51, 51, 210);
+    left: 20px;
+}
+
+/* upper section name or left buttons box */
+.name_section {
+    width: 590px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* name para */
+.name_section > p  {
+    top: 18px;
+    left: 75px;
+    font-weight: bold;
+}
+
+.name_section > p > span {
+    color: #5a5b5d;
+    font-weight: normal;
+}
+
+/* left buttons */
+.post_left_buttons {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    width: 50px;
+}
+
+.post_left_buttons > img {
+    width: 28px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.post_left_buttons > img:hover {
+    background-color: #ededef;
+}
+
+/* post piction -- mid section */
+.post_picture_mid_section {
+    display: flex;
+    justify-content: center;
+    background-color: #c4c6c9;
+}
+
+.post_picture_mid_section > img {
+    height: 330px;
+    width: 300px;
+}
+
+/* post footer section */
+
+.post_footer_section {
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 15px 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.post_footer_section > img {
+    width: 25px;
+    cursor: pointer;
+}
+
+/* left section menu aside bar */
+#left_bar_section {
+    width: 230px;
+    padding-top: 20px;
+}
+
+.left_section_heading {
+    color: rgb(128, 126, 126);
+}
+
+.image_icon {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.Seemore_icon {
+    margin-left: 8px;
+    width: 25px;
+}

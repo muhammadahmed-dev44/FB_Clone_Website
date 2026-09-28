@@ -90,10 +90,19 @@
     cursor: pointer;
 }
 
+.buttons > a {
+    margin: 13px;
+}
+
 .submit {
+    width: 400px;
+    height: 40px;
     background-color: #0064e0;
     color: white;
     font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
 }
 
 .Forgot-btn {
@@ -114,6 +123,12 @@
     margin-top: 35px;
     background-color: white;
     color: #0064e0;
+}
+
+
+
+div > a > .create-btn { 
+    cursor: pointer;
 }
 
 
