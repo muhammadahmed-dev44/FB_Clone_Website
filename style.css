@@ -492,3 +492,20 @@ nav > .leftside-elements {
     margin-left: 8px;
     width: 25px;
 }
+
+/* log button css */
+#Logout_tag > button {
+    margin-top: 70px;
+    width: 100px;
+    background-color: rgb(41, 41, 255);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#Logout_tag > button:hover {
+        background-color: rgb(64, 64, 255);
+}
